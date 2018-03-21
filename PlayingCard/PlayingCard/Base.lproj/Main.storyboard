@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,16 +20,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="gQT-29-3fi" customClass="PlayingCardView" customModule="PlayingCard" customModuleProvider="target">
-                                <rect key="frame" x="16" y="44" width="343" height="734"/>
+                                <rect key="frame" x="16" y="137.33333333333331" width="342" height="547.33333333333348"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="800" id="4QY-xx-sL3"/>
+                                    <constraint firstAttribute="width" secondItem="gQT-29-3fi" secondAttribute="height" multiplier="5:8" id="gE3-fy-hU1"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gQT-29-3fi" secondAttribute="bottom" id="9EO-cd-zoZ"/>
-                            <constraint firstItem="gQT-29-3fi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XrU-GA-8eK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gQT-29-3fi" secondAttribute="trailing" constant="16" id="bSO-Fy-KRU"/>
-                            <constraint firstItem="gQT-29-3fi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mPE-d5-Izk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gQT-29-3fi" secondAttribute="bottom" id="9EO-cd-zoZ"/>
+                            <constraint firstItem="gQT-29-3fi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FJh-es-HhP"/>
+                            <constraint firstItem="gQT-29-3fi" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="OtV-PS-y5r"/>
+                            <constraint firstItem="gQT-29-3fi" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XrU-GA-8eK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gQT-29-3fi" secondAttribute="trailing" constant="16" id="bSO-Fy-KRU"/>
+                            <constraint firstItem="gQT-29-3fi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mPE-d5-Izk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
