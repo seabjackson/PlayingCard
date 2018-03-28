@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B526CCC0206BDB6800BB685A /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526CCBF206BDB6800BB685A /* CardBehavior.swift */; };
+		B526CCC2206C377600BB685A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526CCC1206C377600BB685A /* Constants.swift */; };
 		B5805A44204FC1DA00E733A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5805A43204FC1DA00E733A0 /* AppDelegate.swift */; };
 		B5805A46204FC1DA00E733A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5805A45204FC1DA00E733A0 /* ViewController.swift */; };
 		B5805A49204FC1DA00E733A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5805A47204FC1DA00E733A0 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B526CCBF206BDB6800BB685A /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
+		B526CCC1206C377600BB685A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B5805A40204FC1DA00E733A0 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5805A43204FC1DA00E733A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5805A45204FC1DA00E733A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				B598EA4C2054EE76001C5F0D /* PlayingCardView.swift */,
 				B5805A58204FCEE200E733A0 /* PlayingCardDeck.swift */,
 				B5805A45204FC1DA00E733A0 /* ViewController.swift */,
+				B526CCC1206C377600BB685A /* Constants.swift */,
+				B526CCBF206BDB6800BB685A /* CardBehavior.swift */,
 				B5805A47204FC1DA00E733A0 /* Main.storyboard */,
 				B5805A4A204FC1DA00E733A0 /* Assets.xcassets */,
 				B5805A55204FC23300E733A0 /* Supporting Files */,
@@ -157,7 +163,9 @@
 				B5805A59204FCEE200E733A0 /* PlayingCardDeck.swift in Sources */,
 				B5805A57204FC26500E733A0 /* PlayingCard.swift in Sources */,
 				B598EA4D2054EE76001C5F0D /* PlayingCardView.swift in Sources */,
+				B526CCC2206C377600BB685A /* Constants.swift in Sources */,
 				B5805A44204FC1DA00E733A0 /* AppDelegate.swift in Sources */,
+				B526CCC0206BDB6800BB685A /* CardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
